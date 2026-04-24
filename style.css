@@ -55,6 +55,7 @@ html {
   border: 3px solid #9333ea;
   box-shadow: 0 0 20px #9333ea;
   animation: float 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
 }
 
 /* FLOAT ANIMATION */
@@ -472,4 +473,22 @@ button:hover {
 html, body {
   background-color: #0f172a !important;
   color: white;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
