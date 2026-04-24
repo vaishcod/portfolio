@@ -13,4 +13,8 @@ function typeEffect() {
   }
 }
 
+function openCert(filePath) {
+    window.open(filePath, '_blank');
+}
+
 window.onload = typeEffect;
