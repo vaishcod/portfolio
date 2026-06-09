@@ -1,414 +1,648 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Vaishnavi Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaishnavi Saxena | Portfolio</title>
+  
+  <!-- Tailwind/CSS fallback -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Devicon CDN for tech stack icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
 
-<nav class="navbar">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#home" class="nav-logo">Vaishnavi.</a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education-experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-<!-- HERO -->
-<section id="home" class="hero">
-
-  <img src="vaishnavi.jpg" class="profile-img">
-
-  <h1 id="typing-name"></h1>
-
-  <p class="tagline">
-    Creative Developer | AI & ML Enthusiast | Problem Solver 🚀
-  </p>
-
-  <!-- NEW: Short Intro -->
-  <p class="intro">
-    Passionate about building intelligent systems and modern web applications.
-    Experienced in Machine Learning, Data Analysis, and Full Stack Development.
-  </p>
-
-  <!-- NEW: Quick Highlights -->
-  <div class="highlights">
-    <div>🎓 B.Tech CSE (AI & ML)</div>
-    <div>📊 Power BI & Data Analytics</div>
-    <div>🤖 AI Chatbot Developer</div>
-  </div>
-
-  <!-- Buttons -->
-  <div class="buttons">
-    <a href="vaishnavi.pdf" download>
-      <button>Download Resume</button>
-    </a>
-  </div>
-
-</section>
-<!-- ABOUT -->
-
-<section id="about" class="about-section">
-
-  <h2>About Me</h2>
-
-  <div class="about-box">
-
-    <p>
-      I am a Computer Science student specializing in Artificial Intelligence and Machine Learning, with a strong passion for building real-world solutions through technology.
-    </p>
-
-    <p>
-      I have hands-on experience in developing web applications using modern technologies like React, Node.js, and MongoDB, along with building machine learning models for prediction, automation, and data analysis.
-    </p>
-
-    <p>
-      During my internships, I worked on data visualization, chatbot development, and AI-based systems, where I gained practical exposure to industry-level problem solving and collaboration.
-    </p>
-
-    <p>
-      I am a quick learner, a problem solver, and someone who enjoys turning ideas into impactful digital products.
-    </p>
-
-  </div>
-
-</section>
-<!-- PROJECTS -->
-<section>
-  <section id="projects">
-  <h2>Projects</h2>
-
-  <div class="grid">
-
-    <a href="https://github.com/vaishcod/Attendance-System" target="_blank" class="project-link">
-      <div class="card">
-        <h3>Face Recognition System</h3>
-        <p>AI-based attendance system using OpenCV.</p>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-code"></i> Open to Opportunities
       </div>
-    </a>
-
-    <a href="https://github.com/vaishcod/student-placement-predictor" target="_blank" class="project-link">
-      <div class="card">
-        <h3>Placement Predictor</h3>
-        <p>Machine learning model for predicting placements.</p>
+      <h1>Hi, I'm <br><span id="typing-name"></span></h1>
+      <p class="tagline">Creative Developer | AI & ML Specialist | Data Analyst 🚀</p>
+      <p class="intro">
+        Specializing in building intelligent ML/AI systems, automation solutions, and modern web applications. Passionate about transforming raw data into actionable business insights.
+      </p>
+      
+      <div class="highlights">
+        <div>🎓 B.Tech CSE (AI & ML)</div>
+        <div>📊 Power BI & Analytics</div>
+        <div>🤖 AI Chatbot Engineer</div>
       </div>
-    </a>
-
-    <div class="card">
-      <h3>Question Paper Generator</h3>
-      <p>AI system to generate exam papers.</p>
+      
+      <div class="buttons">
+        <a href="vaishnavi.pdf" download class="btn-primary">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="#contact" class="btn-secondary">
+          Contact Me
+        </a>
+      </div>
     </div>
-
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="skills-section">
-
-  <h2>Technical Skills</h2>
-  <p class="subtitle">
-    <p>Languages: C++, Python, SQL</p>
-<p>Web Development: React.js, HTML5, CSS3, Node.js, REST APIs, MongoDB, MongoDB Atlas, MySQL, Render, Netlify, Git, GitHub</p>
-<p>ML & Data: NumPy, Pandas, Scikit-learn, Matplotlib</p> 
-<p>Supervised Learning: Linear Regression, Logistic Regression, Decision Trees, Random Forest, SVM</p>
-<p> Unsupervised Learning: K-Means, PCA; Data preprocessing, feature engineering, model evaluation.</p>
-<p>Coursework: Data Structures and Algorithms, OOPS, DBMS, OS, CN Personal Competencies: Problem Solving, Analytical & Technical Skills, Teamwork, Communication yeh sabh add krna hai but i want in sabh languages ka symbol bhi add ho  </p>
-
-<section class="edu-section">
-
-  <h2>Education</h2>
-
-  <div class="edu-card">
-    <h3>GD Goenka University</h3>
-    <p>B.Tech CSE (AI & ML)</p>
-    <p>Gurugram, Haryana</p>
-    <span>2023 - 2027 | CGPA: 9.01</span>
-  </div>
-
-  <div class="edu-card">
-    <h3>MGD Girls School</h3>
-    <p>Class 12th</p>
-    <span>Percentage: 83.4%</span>
-  </div>
-
-  <div class="edu-card">
-    <h3>MGD Girls School</h3>
-    <p>Class 10th</p>
-    <span>Percentage: 91%</span>
-  </div>
-
-</section>
-
-<section class="exp-section">
-
-  <h2>Professional Experience</h2>
-  <p class="subtitle">
-    Hands-on experience in AI, Data Analytics and Development
-  </p>
-
-  <!-- A3Logics -->
-  <div class="exp-card">
-    <h3>A3Logics</h3>
-    <p class="location">Gurugram</p>
-
-    <ul>
-      <li>Designed interactive dashboards using Power BI</li>
-      <li>Cleaned and analyzed datasets for insights</li>
-      <li>Created reports for data-driven decisions</li>
-      <li>Performed data modeling for performance</li>
-      <li>Collaborated with team for business solutions</li>
-    </ul>
-
-    <div class="exp-buttons">
-      <a href="/portfolio/a3logics.pdf" target="_blank">
-  <button>View</button>
-</a>
-<a href="/portfolio/a3logics2.pdf" target="_blank">
-  <button>View</button>
-</a>
-    </div>
-  </div>
-
-  <!-- IBM -->
-  <div class="exp-card">
-    <h3>AI Intern — IBM</h3>
-    <p class="location">GD Goenka University</p>
-
-    <ul>
-      <li>Developed chatbot using Python</li>
-      <li>Designed conversation flows</li>
-      <li>Worked on NLP concepts</li>
-      <li>Built chatbot for university queries</li>
-      <li>Improved accuracy via testing</li>
-    </ul>
-
-    <div class="exp-buttons">
-      <a href="ibm.pdf" target="_blank">
-  <button>View</button>
-</a>
-    </div>
-  </div>
-
-</section>
-
-
-  <!-- LANGUAGES -->
-  <h3 class="skill-title">Programming Languages</h3>
-  <div class="skills-grid">
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg">
-      <h4>C++</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-      <h4>Python</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-      <h4>SQL</h4>
-    </div>
-
-  </div>
-
-  <!-- WEB DEV -->
-  <h3 class="skill-title">Web Development</h3>
-  <div class="skills-grid">
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-      <h4>HTML5</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-      <h4>CSS3</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-      <h4>JavaScript</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-      <h4>React</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
-      <h4>Node.js</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
-      <h4>MongoDB</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-      <h4>Git</h4>
-    </div>
-
-    <div class="skill-card">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-      <h4>GitHub</h4>
-    </div>
-
-  </div>
-
-  <!-- ML -->
-  <h3 class="skill-title">Machine Learning</h3>
-  <div class="skills-grid">
-
-    <div class="skill-card"><h4>NumPy</h4></div>
-    <div class="skill-card"><h4>Pandas</h4></div>
-    <div class="skill-card"><h4>Scikit-learn</h4></div>
-    <div class="skill-card"><h4>Matplotlib</h4></div>
-    <div class="skill-card"><h4>Linear Regression</h4></div>
-    <div class="skill-card"><h4>Decision Trees</h4></div>
-    <div class="skill-card"><h4>K-Means</h4></div>
-    <div class="skill-card"><h4>PCA</h4></div>
-
-  </div>
-
-</section>
     
+    <div class="hero-image-wrapper">
+      <img src="vaishnavi.jpg" alt="Vaishnavi Saxena" class="profile-img">
+    </div>
+  </section>
 
-   
-<!-- CERTIFICATES -->
-<section>
-  <h2>Certificates</h2>
+  <!-- About Me Section -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-box">
+      <div class="about-desc">
+        <p>
+          I am a Computer Science student specializing in Artificial Intelligence and Machine Learning, with a strong passion for building real-world solutions through technology.
+        </p>
+        <p>
+          I have hands-on experience in developing web applications using modern technologies like React, Node.js, and MongoDB, along with building machine learning models for prediction, automation, and data analysis.
+        </p>
+        <p>
+          During my internships, I worked on data visualization, chatbot development, and AI-based systems, where I gained practical exposure to industry-level problem solving, statistical modeling, and teamwork.
+        </p>
+        <p>
+          I am a quick learner, an analytical thinker, and someone who thrives on building digital products that create a tangible, positive impact.
+        </p>
+      </div>
+      
+      <div class="about-metrics">
+        <div class="metric-card">
+          <h3>9.01</h3>
+          <p>CGPA in B.Tech</p>
+        </div>
+        <div class="metric-card">
+          <h3>2+</h3>
+          <p>Professional Internships</p>
+        </div>
+        <div class="metric-card">
+          <h3>7+</h3>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="grid">
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    
+    <div class="skills-container">
+      
+      <!-- Languages -->
+      <div class="skills-category">
+        <h3 class="skills-category-title">Programming Languages</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="devicon-cplusplus-plain colored"></i>
+            <h4>C++</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-python-plain colored"></i>
+            <h4>Python</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-mysql-plain colored"></i>
+            <h4>SQL</h4>
+          </div>
+        </div>
+      </div>
 
-    <div class="card">
-      AWS Certification  
-      <br>
-      <a href="/portfolio/aws.pdf" target="_blank">
-  <button>View</button>
-</a>    </div>
+      <!-- Web Development -->
+      <div class="skills-category">
+        <h3 class="skills-category-title">Web Development & Tools</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="devicon-html5-plain colored"></i>
+            <h4>HTML5</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-css3-plain colored"></i>
+            <h4>CSS3</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <h4>JavaScript</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-react-original colored"></i>
+            <h4>React.js</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-nodejs-plain colored"></i>
+            <h4>Node.js</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-mongodb-plain colored"></i>
+            <h4>MongoDB</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-circle-nodes" style="color: #61dbfb;"></i>
+            <h4>REST APIs</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-cloud" style="color: #47a248;"></i>
+            <h4>MongoDB Atlas</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-mysql-plain colored"></i>
+            <h4>MySQL</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-server" style="color: #46e3b7;"></i>
+            <h4>Render</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-netlify-plain colored"></i>
+            <h4>Netlify</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-git-plain colored"></i>
+            <h4>Git</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-github-original" style="color: var(--text-primary);"></i>
+            <h4>GitHub</h4>
+          </div>
+        </div>
+      </div>
 
-    <div class="card">
-      Tata GenAI  
-      <br>
-      <a href="/portfolio/tata.pdf" target="_blank">
-  <button>View</button>
-</a>    
-</div>
+      <!-- ML & Data -->
+      <div class="skills-category">
+        <h3 class="skills-category-title">Machine Learning & Data Science</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="devicon-numpy-original colored"></i>
+            <h4>NumPy</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-pandas-original colored"></i>
+            <h4>Pandas</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-scikitlearn-plain colored"></i>
+            <h4>Scikit-learn</h4>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-matplotlib-plain colored"></i>
+            <h4>Matplotlib</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-chart-line" style="color: #ec4899;"></i>
+            <h4>Regression</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-network-wired" style="color: #a855f7;"></i>
+            <h4>Decision Trees</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-tree" style="color: #10b981;"></i>
+            <h4>Random Forest</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-border-all" style="color: #06b6d4;"></i>
+            <h4>SVM</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-diagram-project" style="color: #f59e0b;"></i>
+            <h4>K-Means</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-arrows-split-up-and-left" style="color: #3b82f6;"></i>
+            <h4>PCA</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-filter" style="color: #14b8a6;"></i>
+            <h4>Preprocessing</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-gears" style="color: #84cc16;"></i>
+            <h4>Feature Eng.</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-square-poll-vertical" style="color: #ec4899;"></i>
+            <h4>Model Eval.</h4>
+          </div>
+        </div>
+      </div>
 
-    <div class="card">
-      AI/ML Certificate  
-      <br>
-      <a href="/portfolio/aiml.pdf" target="_blank">
-  <button>View</button>
-</a>    </div>
+      <!-- Core Coursework -->
+      <div class="skills-category">
+        <h3 class="skills-category-title">Core Computer Science</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-solid fa-code-fork" style="color: #f8fafc;"></i>
+            <h4>DSA</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-cubes" style="color: #a855f7;"></i>
+            <h4>OOPs</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-database" style="color: #06b6d4;"></i>
+            <h4>DBMS</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-microchip" style="color: #10b981;"></i>
+            <h4>OS</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-globe" style="color: #3b82f6;"></i>
+            <h4>CN</h4>
+          </div>
+        </div>
+      </div>
 
-   <div class="card">
-      IDP Certification  
-      <br>
-      <a href="/portfolio/Idp.pdf" target="_blank">
-  <button>View</button>
-</a>
-<a href="/portfolio/idp2.pdf" target="_blank">
-  <button>View</button>
-</a>
+      <!-- Personal Competencies -->
+      <div class="skills-category">
+        <h3 class="skills-category-title">Core Competencies</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-solid fa-lightbulb" style="color: #eab308;"></i>
+            <h4>Problem Solving</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-magnifying-glass-chart" style="color: #14b8a6;"></i>
+            <h4>Analytical Skills</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-users" style="color: #ec4899;"></i>
+            <h4>Teamwork</h4>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-comments" style="color: #6366f1;"></i>
+            <h4>Communication</h4>
+          </div>
+        </div>
+      </div>
 
     </div>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    
+    <div class="projects-grid">
+      
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/student-placement-predictor" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Placement Predictor</h3>
+          <p>A machine learning and predictive model system developed to forecast student job placement chances using statistical evaluation and historic dataset parameters.</p>
+        </div>
+        <div class="project-tags">
+          <span>Machine Learning</span>
+          <span>Python</span>
+          <span>Scikit-Learn</span>
+          <span>Pandas</span>
+        </div>
+      </div>
 
-  </div>
-</section>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/AI-Interview-copilot-Analyze-and-test-your-skills-for-real-interview." target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>AI Interview Copilot</h3>
+          <p>An intelligent interview simulation prep platform. Conducts role-specific technical evaluations and generates real-time performance analytics.</p>
+        </div>
+        <div class="project-tags">
+          <span>GenAI</span>
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>Tailwind</span>
+        </div>
+      </div>
 
-<!-- CONTACT -->
-<section id="contact" class="contact-section">
-  <h2>Send Me a Message</h2>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/Question-Paper-Generator" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Question Paper Generator</h3>
+          <p>Automated question paper compiler for educators. Supports customizable difficulty levels, weightage, topics, and layout patterns.</p>
+        </div>
+        <div class="project-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>DOM Manipulation</span>
+        </div>
+      </div>
 
-  <div class="contact-box">
+      <!-- Project 4 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/ai-code-reviewer" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>AI Code Reviewer</h3>
+          <p>Automates pull request code reviews. Integrates with repository webhooks to check code quality, logic errors, and styling guidelines.</p>
+        </div>
+        <div class="project-tags">
+          <span>AI Engine</span>
+          <span>HTML</span>
+          <span>Node.js</span>
+          <span>GitHub API</span>
+        </div>
+      </div>
 
-    <input type="text" placeholder="Full Name" required>
+      <!-- Project 5 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/Attendance-System" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Face Recognition Attendance</h3>
+          <p>An AI-based smart attendance system using computer vision. Captures video frames, matches faces with database images, and registers attendance.</p>
+        </div>
+        <div class="project-tags">
+          <span>Computer Vision</span>
+          <span>OpenCV</span>
+          <span>Python</span>
+          <span>MySQL</span>
+        </div>
+      </div>
 
-    <input type="email" placeholder="Email Address" required>
+      <!-- Project 6 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/grid07-ai-assignment" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Grid07 AI System</h3>
+          <p>Educational implementation repository exploring advanced Machine Learning, data models, classifiers, and algorithmic assignments.</p>
+        </div>
+        <div class="project-tags">
+          <span>Machine Learning</span>
+          <span>Python</span>
+          <span>Jupyter</span>
+          <span>Algorithms</span>
+        </div>
+      </div>
 
-    <textarea placeholder="Your Message" rows="5" required></textarea>
+      <!-- Project 7 -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <i class="fa-regular fa-folder-open project-icon-folder"></i>
+            <div class="project-links-icons">
+              <a href="https://github.com/vaishcod/portfolio" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Personal Portfolio</h3>
+          <p>This personal portfolio system, custom-designed to demonstrate expertise, projects, and contact channels in an aesthetic dark-mode layout.</p>
+        </div>
+        <div class="project-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Vanilla JS</span>
+          <span>Design System</span>
+        </div>
+      </div>
 
-    <button>Send Message</button>
+    </div>
+  </section>
 
-  </div>
-</section>
+  <!-- Education & Experience Section -->
+  <section id="education-experience">
+    <div class="edu-exp-container">
+      
+      <!-- Left Column: Education -->
+      <div>
+        <h2 class="section-title" style="transform: none; left: 0; margin-bottom: 30px;">Education</h2>
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-card">
+              <h3>GD Goenka University</h3>
+              <p class="timeline-institution">B.Tech in Computer Science (AI & ML)</p>
+              <span class="timeline-duration">2023 - 2027</span>
+              <ul>
+                <li>Location: Gurugram, Haryana</li>
+                <li>Academic Performance: CGPA 9.01</li>
+                <li>Specialization: Deep Learning, Natural Language Processing, Software Architecture</li>
+              </ul>
+            </div>
+          </div>
 
-<section class="contact-final">
+          <div class="timeline-item">
+            <div class="timeline-card">
+              <h3>MGD Girls School</h3>
+              <p class="timeline-institution">Class 12th (High School)</p>
+              <span class="timeline-duration">Graduated 2023</span>
+              <ul>
+                <li>Board: Central Board of Secondary Education (CBSE)</li>
+                <li>Academic Performance: 83.4%</li>
+              </ul>
+            </div>
+          </div>
 
-  <h2>Get In Touch</h2>
+          <div class="timeline-item">
+            <div class="timeline-card">
+              <h3>MGD Girls School</h3>
+              <p class="timeline-institution">Class 10th (Secondary School)</p>
+              <span class="timeline-duration">Graduated 2021</span>
+              <ul>
+                <li>Board: Central Board of Secondary Education (CBSE)</li>
+                <li>Academic Performance: 91%</li>
+              </ul>
+            </div>
+          </div>
 
-  <div class="contact-info">
+        </div>
+      </div>
 
-  <p>
-    <i class="fas fa-envelope"></i>
-    <a href="mailto:vishisaxena26@gmail.com">
-      vishisaxena26@gmail.com
-    </a>
-  </p>
+      <!-- Right Column: Experience -->
+      <div>
+        <h2 class="section-title" style="transform: none; left: 0; margin-bottom: 30px;">Experience</h2>
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-card">
+              <h3>Data Analyst Intern</h3>
+              <p class="timeline-role">A3Logics</p>
+              <span class="timeline-duration">Gurugram</span>
+              <ul>
+                <li>Designed and built interactive, data-driven dashboards using Power BI.</li>
+                <li>Cleaned, modeled, and engineered structural datasets to extract business insights.</li>
+                <li>Created automated KPI reports to support executive decision-making.</li>
+                <li>Optimized query execution times and data schemas for dashboard performance.</li>
+              </ul>
+              <div class="exp-buttons">
+                <a href="a3logics.pdf" target="_blank" class="btn-primary">View Doc 1</a>
+                <a href="a3logics2.pdf" target="_blank" class="btn-secondary">View Doc 2</a>
+              </div>
+            </div>
+          </div>
 
-  <p>
-    <i class="fas fa-phone"></i>
-    <a href="tel:+919664054810">
-      +91 9664054810
-    </a>
-  </p>
+          <div class="timeline-item">
+            <div class="timeline-card">
+              <h3>AI Chatbot Intern</h3>
+              <p class="timeline-role">IBM — GD Goenka University</p>
+              <span class="timeline-duration">University Campus</span>
+              <ul>
+                <li>Developed an intelligent conversational chatbot using Python and NLP frameworks.</li>
+                <li>Designed intent mapping, entity recognition, and complex conversation flows.</li>
+                <li>Built custom connectors to link the bot with university administrative databases.</li>
+                <li>Improved chat intent prediction accuracy through validation testing and feedback loops.</li>
+              </ul>
+            </div>
+          </div>
 
-  <p>
-    <i class="fas fa-location-dot"></i>
-    Gurugram, Haryana
-  </p>
+        </div>
+      </div>
 
-</div>
-  <!-- Social Media -->
-  <h3>Connect on Social Media</h3>
+    </div>
+  </section>
 
-  <div class="social-icons">
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <h2 class="section-title">Certificates</h2>
+    <div class="certificates-grid">
+      
+      <!-- Certificate 1 -->
+      <div class="certificate-card">
+        <div>
+          <div class="certificate-icon"><i class="fa-brands fa-aws"></i></div>
+          <h3>AWS Certification</h3>
+          <p>Credential validating cloud computing expertise, architecture, security, and hosting management on AWS infrastructure.</p>
+        </div>
+        <a href="aws.pdf" target="_blank" class="btn-secondary">View Credential</a>
+      </div>
 
-    <a href="https://github.com/vaishcod" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
+      <!-- Certificate 2 -->
+      <div class="certificate-card">
+        <div>
+          <div class="certificate-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Tata GenAI</h3>
+          <p>Training and assessment in Generative AI applications, large language models (LLMs), and prompt engineering paradigms.</p>
+        </div>
+        <a href="tata.pdf" target="_blank" class="btn-secondary">View Credential</a>
+      </div>
 
-    <a href="https://leetcode.com/vishisaxena_9828" target="_blank">
-  <i class="fas fa-code"></i>
-</a>
-  </div>
+      <!-- Certificate 3 -->
+      <div class="certificate-card">
+        <div>
+          <div class="certificate-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>AI/ML Certificate</h3>
+          <p>Advanced program covering supervised learning, unsupervised learning, model deployment pipelines, and neural networks.</p>
+        </div>
+        <a href="aiml.pdf" target="_blank" class="btn-secondary">View Credential</a>
+      </div>
 
-</section>
+      <!-- Certificate 4 -->
+      <div class="certificate-card">
+        <div>
+          <div class="certificate-icon"><i class="fa-solid fa-award"></i></div>
+          <h3>IDP Certification</h3>
+          <p>Professional assessment credentials validating problem-solving competency, project coordination, and analytics.</p>
+        </div>
+        <div style="display: flex; gap: 10px; margin-top: 10px;">
+          <a href="Idp.pdf" target="_blank" class="btn-secondary" style="flex: 1;">Part 1</a>
+          <a href="idp2.pdf" target="_blank" class="btn-secondary" style="flex: 1;">Part 2</a>
+        </div>
+      </div>
 
+    </div>
+  </section>
 
-<p class="closing-text">
-  I'll get back to you as soon as possible 😊
-</p>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-container">
+      
+      <div class="contact-info-wrapper">
+        <h3>Connect With Me</h3>
+        <p class="desc">
+          Feel free to reach out for internship opportunities, project collaborations, or just a professional chat! I'll get back to you as soon as possible. 😊
+        </p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:vishisaxena26@gmail.com">vishisaxena26@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+919664054810">+91 9664054810</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Gurugram, Haryana, India</span>
+          </div>
+        </div>
+        
+        <div class="social-icons">
+          <a href="https://github.com/vaishcod" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://leetcode.com/vishisaxena_9828" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+        </div>
+      </div>
+      
+      <div class="contact-box">
+        <form action="#" onsubmit="event.preventDefault(); alert('Message sent! Thank you.');">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+      
+    </div>
+  </section>
 
-<p class="closing-text">
-  Currently open to internships and opportunities.
-</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Vaishnavi Saxena. All Rights Reserved.</p>
+    <p class="footer-sub">B.Tech CSE (AI & ML) | GD Goenka University</p>
+    <p class="footer-sub">Open to Internships & Development Opportunities</p>
+  </footer>
 
-<footer class="footer">
-  <p>© 2025 Vaishnavi Saxena. All Rights Reserved.</p>
-
-  <p class="footer-sub">
-    B.Tech CSE (AI & ML) | GD Goenka University
-  </p>
-
-<p class="footer-sub">
-  AI & ML Enthusiast | Web Developer
-</p>
-</footer>
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
